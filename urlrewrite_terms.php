@@ -1,4 +1,5 @@
-```php
+<?
+return [
     array(
         "CONDITION"	=>	"#^/test/([0-9]+).html#",
         "RULE"	=>	"id=$1",
@@ -22,4 +23,4 @@
         "RULE"	=>	"section=$1",
         "PATH"	=>	"/test/page.php",
     ),
-```
+]
